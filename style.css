@@ -1,0 +1,139 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 25px;
+}
+
+@media(max-width: 768px){
+    .footer-element {
+        display: block !important;
+    }
+    .footer-item {
+        width: 100% !important;
+    }
+}
+
+.header {
+    text-align: center;
+    padding: 55px 0;
+}
+
+.footer-section {
+    background-color: #181717;
+    padding: 55px 0;
+    color: #dbd5d5;
+    margin-top: 100%;
+}
+
+.footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer-element {
+    display: flex;
+}
+
+.footer-item {
+    width: 40%;
+    margin-top: 15px;
+}
+
+h2 {
+    font-weight: 800;
+    margin-bottom: 4px; 
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #dbd5d5;
+    margin-left: -40px;
+}
+
+ul li a:hover{
+    color: khaki;
+}
+
+.main-1{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin: auto;
+    margin-top: 75%;
+}
+
+.main-1:before, .main-1:after{
+    background: #d10dba;
+    position: absolute;
+    content: "";
+    height: 120px;
+    width: 80px;
+    top: 0;
+    left: 80px;
+    border-radius: 60px 60px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.main-1:after{
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.main-2{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin: auto;
+    margin-top: 50%;
+}
+
+.main-2:before, .main-2:after{
+    background: #ff0000;
+    position: absolute;
+    content: "";
+    height: 120px;
+    width: 80px;
+    top: 0;
+    left: 80px;
+    border-radius: 60px 60px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.main-2:after{
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.main-3{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.main-3:before, .main-3:after{
+    background: #04f110;
+    position: absolute;
+    content: "";
+    height: 120px;
+    width: 80px;
+    top: 0;
+    left: 80px;
+    border-radius: 60px 60px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.main-3:after{
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
