@@ -134,7 +134,9 @@ ul li a:hover{
 
 .main-3:after{
     left: 0;
+    right: 0;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
 }
 
+h
