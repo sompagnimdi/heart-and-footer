@@ -144,3 +144,9 @@ ul li a:hover{
     border: .5px;
     box-sizing: border-box;
 }
+.test{
+    box-shadow: #181717;
+    display: inline-block;
+    margin: 25px;
+    padding: 15px;
+}
